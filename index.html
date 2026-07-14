@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Усманова.Fit — Тренировки с чемпионкой Катей Усмановой</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header id="siteHeader">
+  <div class="container nav">
+    <a href="#hero" class="logo">УСМАНОВА<span>.</span>FIT</a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">О тренере</a>
+      <a href="#programs">Программы</a>
+      <a href="#cta">Записаться</a>
+      <a href="#programs" class="btn btn-primary">Выбрать программу</a>
+    </nav>
+    <button class="menu-toggle" id="menuToggle" aria-label="Открыть меню">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<section class="hero" id="hero">
+  <div class="hero-bg">
+    <img src="images/hero.avif" alt="Спортивная девушка в фитнес-костюме">
+  </div>
+  <div class="container">
+    <div class="hero-content">
+      <span class="eyebrow">Онлайн-тренировки для дома и зала</span>
+      <h1>Приведите тело в форму с <span class="hl">чемпионкой Катей Усмановой</span></h1>
+      <div class="hero-sub">
+        <span class="pill">без диет, голода и запретов</span>
+        <span class="pill strong">с пользой для здоровья</span>
+      </div>
+      <p class="hero-desc">
+        Похудеть, подтянуть попу и живот, набрать форму в зале, восстановиться после родов —
+        тренировки и питание под вашу цель.
+      </p>
+      <div class="hero-actions">
+        <a href="#programs" class="btn btn-primary">Выбрать программу</a>
+        <a href="#about" class="btn btn-outline">О тренере</a>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div><b>580 000+</b><span>Участниц</span></div>
+      <div><b>2015</b><span>Год основания</span></div>
+      <div><b>6</b><span>Программ тренировок</span></div>
+    </div>
+  </div>
+  <div class="scroll-cue">Листайте вниз</div>
+</section>
+
+<section class="about section" id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-photo-wrap reveal">
+        <div class="about-photo">
+          <img src="images/trainer.avif" alt="Тренер фитнеса">
+        </div>
+        <div class="about-badge">
+          <span class="num">580K+</span>
+          <span class="txt">участниц уже тренируются по программам</span>
+        </div>
+      </div>
+      <div class="about-text reveal">
+        <span class="eyebrow">Ваш тренер</span>
+        <h2>Доверьте свое тело чемпионке фитнес-бикини и тренеру Кате Усмановой</h2>
+        <p>
+          С 2015 года создаёт топовые тренировки для идеальных ягодиц, плоского живота
+          и стройности без жёстких диет. Уже более 580 000+ участниц тренируются с Катей
+          и получают результат без вреда для здоровья.
+        </p>
+        <ul class="achievements reveal reveal-stagger">
+          <li style="--i:0">Вице-чемпионка мира по фитнес-бикини</li>
+          <li style="--i:1">Профессиональный сертифицированный тренер</li>
+          <li style="--i:2">Мама двух детей, знает тело изнутри</li>
+          <li style="--i:3">Автор десятков марафонов стройности</li>
+          <li style="--i:4">580 000+ участниц прошли программы</li>
+          <li style="--i:5">Индивидуальный подход к каждой цели</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="programs section" id="programs">
+  <div class="container">
+    <div class="programs-head section-head reveal">
+      <div>
+        <span class="eyebrow">Занимайтесь дома</span>
+        <h2>Тренировки дома</h2>
+      </div>
+      <p class="programs-note">Выберите программу под свою цель — от общего тонуса до точечной проработки проблемных зон.</p>
+    </div>
+
+    <div class="card-grid reveal reveal-stagger">
+
+      <article class="card" style="--i:0">
+        <div class="card-media">
+          <span class="card-badge">Флагман</span>
+          <img src="images/program-method.avif" alt="Метод Усмановой">
+        </div>
+        <div class="card-body">
+          <h3>Метод Усмановой</h3>
+          <p>Авторская система тренировок и питания, которая учит слушать своё тело и получать результат без диет и срывов — на всю жизнь.</p>
+          <a href="#more-method" class="btn btn-card">Подробнее</a>
+        </div>
+      </article>
+
+      <article class="card" style="--i:1">
+        <div class="card-media">
+          <span class="card-badge">Марафон</span>
+          <img src="images/program-slim.avif" alt="Марафон Стройности">
+        </div>
+        <div class="card-body">
+          <h3>Марафон Стройности</h3>
+          <p>Комплексная программа тренировок и питания для похудения и создания рельефа по всему телу за несколько недель.</p>
+          <a href="#more-slim" class="btn btn-card">Подробнее</a>
+        </div>
+      </article>
+
+      <article class="card" style="--i:2">
+        <div class="card-media">
+          <span class="card-badge">Марафон</span>
+          <img src="images/program-butt1.avif" alt="Марафон Упругая попа 1.0">
+        </div>
+        <div class="card-body">
+          <h3>Упругая попа 1.0</h3>
+          <p>Базовый курс для проработки ягодичных мышц: подойдёт тем, кто только начинает путь к упругим формам.</p>
+          <a href="#more-butt1" class="btn btn-card">Подробнее</a>
+        </div>
+      </article>
+
+      <article class="card" style="--i:3">
+        <div class="card-media">
+          <span class="card-badge">Марафон</span>
+          <img src="images/program-butt2.avif" alt="Марафон Упругая попа 2.0">
+        </div>
+        <div class="card-body">
+          <h3>Упругая попа 2.0</h3>
+          <p>Продвинутый уровень программы для тех, кто хочет усилить нагрузку и добиться более выраженного рельефа.</p>
+          <a href="#more-butt2" class="btn btn-card">Подробнее</a>
+        </div>
+      </article>
+
+      <article class="card" style="--i:4">
+        <div class="card-media">
+          <span class="card-badge">Марафон</span>
+          <img src="images/program-belly.avif" alt="Марафон Плоский живот">
+        </div>
+        <div class="card-body">
+          <h3>Плоский живот</h3>
+          <p>Программа тренировок и питания, направленная на укрепление кора и уменьшение объёмов в области живота.</p>
+          <a href="#more-belly" class="btn btn-card">Подробнее</a>
+        </div>
+      </article>
+
+      <article class="card" style="--i:5">
+        <div class="card-media">
+          <span class="card-badge">Курс</span>
+          <img src="images/program-burn.avif" alt="Курс Жиросжигающий">
+        </div>
+        <div class="card-body">
+          <h3>Жиросжигающий</h3>
+          <p>Интенсивный курс тренеровок для активного жиросжигания и разгона метаболизма без потери мышечной массы.</p>
+          <a href="#more-burn" class="btn btn-card">Подробнее</a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section class="cta" id="cta">
+  <div class="container cta-grid">
+    <div class="reveal">
+      <span class="eyebrow">Начните сегодня</span>
+      <h2>Готовы привести тело в форму?</h2>
+      <p>Оставьте контакты — пришлём подробную программу тренировок и питания под вашу цель в ближайший рабочий день.</p>
+    </div>
+    <form class="form-card reveal" id="leadForm" onsubmit="event.preventDefault(); document.getElementById('formSuccess').classList.add('show'); this.reset();">
+      <div class="form-row">
+        <label for="nameInput">Имя</label>
+        <input id="nameInput" type="text" placeholder="Как к вам обращаться" required>
+      </div>
+      <div class="form-row">
+        <label for="phoneInput">Телефон или e-mail</label>
+        <input id="phoneInput" type="text" placeholder="+7 999 000-00-00" required>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block">Отправить заявку</button>
+      <p class="form-note">Нажимая кнопку, вы соглашаетесь с политикой обработки данных. Это демонстрационная форма тестового задания.</p>
+      <div class="form-success" id="formSuccess">Заявка отправлена! Это демо-форма тестового задания.</div>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    Тестовая верстка на основе лендинга <strong>usmanovafit.gymteam.ru</strong>. Все права на бренд и фото принадлежат правообладателям.
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
